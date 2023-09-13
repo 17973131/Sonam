@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>merging cells in html</title>
+            <style>
+                table,td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    background-color: rgba(137, 43, 226, 0.521);
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align:center;
+                }
+                h1{
+                    font-style: italic;
+                    font-weight: bolder;
+                }
+                .a{
+                    background-color: black;
+                    color: blanchedalmond;
+                    padding-left: 0%;
+                    padding-right: 100px;
+                    padding-top: 100px;
+                    padding-bottom: 0%;
+                }
+                .b{
+                    background-color: aqua;
+                }
+            </style>
+        </head>
+        <body>
+            <h1><u>Merging Cells</u></h1>
+            <table>
+                <tr>
+                    <td colspan="2" class="a">A</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="b">B</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                </tr>
+            </table>
+        </body>
+    </html>
