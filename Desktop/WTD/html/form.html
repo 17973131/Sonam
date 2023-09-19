@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+            <style>
+                form{
+                    background-color: rgba(255, 249, 249, 0.912);
+                    color: rgb(10, 1, 1);
+                }
+                #S1{
+                    background-color: blue;
+                    color: bisque;
+                }
+                #comment{
+                    background-color: rgb(147, 210, 30);
+                }
+            </style>
+        </head>
+        <body>
+            <form action="abc.py" target="_blank">
+                <fieldset>
+                    <legend>User Details</legend>
+                <label for="Uname">Username</label><br>
+                <input type="text" id="Uname" value="abc.py" ><br><br>
+                <label for="mail">Email</label><br>
+                <input type="email" id="mail" name="mail_id"><br><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="password"><br><br>
+                <label for="Cpwd">Confirm Password</label><br>
+                <input type="password" id="pwd" name="c_password"><br><br>
+            </fieldset>
+
+                <input type="radio" id="CSS" name="topic" value="CSS">
+                <label for="CSS">CSS</label><br>
+                <input type="radio" id="HTML" name="topic" value="HTML">
+                <label for="HTML">HTML</label><br><br>
+
+                <input type="checkbox" id="TY" name="tutor1" value="Tashi Yangchen" checked>
+                <label for="TY">Tashi Yangchen</label><br>
+                <input type="checkbox" id="TW" name="tutor2" value="Tashi Wangchuk">
+                <label for="TW">Tashi Wangchuk</label><br><br>
+
+                <label for="assignment">Upload Assignment:</label><br>
+                <input type="file" id="assignment" name="assignment1"><br><br>
+
+
+                <label for="dzongkhag">Dzongkhag</label>
+                <select name=dzongkhag id="dzongkhag">
+                    <option value="Sj">S/Jongkhar</option>
+                    <option value="TG">T/Gang</option>
+                    <option value="SP">Sarpang</option>
+                    <option value="TY">T/Yangtse</option>  
+                </select><br><br>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="fb_comment" cols="50" rows="10">type your comment here..</textarea><br><br>
+                <input type="submit" id="S1">
+
+            </form>
+        </body>
+    </html>
